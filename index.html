@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
-    background-color: #dac400;
+    background-color: #939e8b;
 }
 
 /* Button */
@@ -127,32 +127,34 @@ i {
 /* Customization */
 
 .book-title {
-    font-size: 3em;
+    font-size: 1.5em;
     margin-bottom: 40px;
 }
 
 .cover-img {
-    width: 200px;
-    height: 270px;
+    width: 100%;
+  /*   height: 90%;  */
     object-fit: cover;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 
 #b1 {
     padding: 20px;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
     justify-content: space-around;
 }
 
 #b1 h2 {
     font-size: 2em;
-    margin-top: 10px;
-    margin-bottom: 20px;
+/*     margin-top: 10px;
+    margin-bottom: 20px; */
 }
 
 #b1 p {
     margin-bottom: 20px;
+    font-size: 11px;
+    text-align: justify;
 }
 
 
@@ -169,19 +171,26 @@ i {
         <div id="p1" class="paper">
             <div class="front">
                 <div id="f1" class="front-content">
-                    <h1 class="book-title">First Page</h1>
-                   <!--  <img class="cover-img" src="./dog.jpg" alt="dog"> -->
+                    <h1 class="book-title">Team DevOps-Daemons</h1>
+                    <img class="cover-img" src="./logo.png" alt="dog">
                 </div>
             </div>
             <div class="back">
                 <div id="b1" class="back-content">
-                    <h2>Some Intro</h2>
+                    <h5>Kapitel 26</h5>
+                    <h2>Kubernetes II</h2>
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                      <p>Kubernetes ist eine Plattform, die es ermöglicht, Anwendungen in einem Cluster, ähnlich einem Buchladen, auszuführen und zu verwalten. Ein Cluster besteht aus mehreren Knoten (Nodes), die als Abteilungen des Buchladens betrachtet werden können, wie zum Beispiel Sifi, Romantik, Krimi usw. Jeder Knoten hat einen bestimmten Arbeitsspeicher (freie Plätze in den Regalen) zur Verfügung, der von den Anwendungen genutzt werden kann.
+                        <br />
+                        <br />
+                        In Kubernetes gibt es auch Namespaces, die ähnlich wie die Abteilungen für Comics und Comichefte im Buchladen organisieren. Ein Namespace kann zum Beispiel für die Comics verwendet werden und ein anderer für die Comichefte.
+                        <br />
+                        <br />
+                        Eine Anwendung, die in Kubernetes ausgeführt wird, wird als Pod bezeichnet. Ein Pod kann verglichen werden mit einem Comicbuch, das in den Regalen des Buchladens platziert wird. Ein Pod ist erst bereit, wenn es ein Preisschild erhalten hat.
+                        <br />
+                        <br />
+                        In Kubernetes gibt es auch die Möglichkeit, die gewünschte Anzahl von Pods für eine bestimmte Anwendung festzulegen. Dies kann verglichen werden mit der gewünschten Anzahl von Comicbüchern, die im Regal platziert werden sollen. Wenn die gewünschte Anzahl nicht erreicht wird, kann Kubernetes automatisch neue Pods erstellen, um die Anforderungen zu erfüllen.                                     
+                    </p>
                     </div>
                 </div>
             </div>
@@ -190,7 +199,7 @@ i {
         <div id="p2" class="paper">
             <div class="front">
                 <div id="f2" class="front-content">
-                    <h1>Second Cool Page</h1>
+                    <img class="cover-img" src="https://miro.medium.com/max/768/0*ZExcXPZ5Wl8eGmR6.jpg" alt="dog">
                 </div>
             </div>
             <div class="back">
@@ -203,7 +212,7 @@ i {
         <div id="p3" class="paper">
             <div class="front">
                 <div id="f3" class="front-content">
-                    <h1>An Amazing third Page</h1>
+                <img class="cover-img" src="./logo.png" alt="dog">
                 </div>
             </div>
             <div class="back">
